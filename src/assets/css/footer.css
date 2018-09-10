@@ -1,0 +1,18 @@
+.footer1 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e26c8e;
+    color: white;
+    text-align: center;
+ }
+
+ #iconos{
+     color: black;
+ }
+
+ #iconos:hover{
+    color: white;
+    cursor: pointer;
+}
