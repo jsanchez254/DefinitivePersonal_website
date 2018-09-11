@@ -3,7 +3,7 @@
     display: block;
     width: 0;
     height: 3px;
-    background: white;
+    background: black;
     transition: width .3s
 }
 
@@ -15,15 +15,19 @@
 #underline{
     font-size: 20px;
     cursor: pointer;
-    color: white;
+    color: black;
+}
+
+#change:hover{
+    color:black;
 }
 
 .hero-head{
-    background-color: black;
+    background-color: #bbd693;
 }
 
 .hero-body{
-    background-color: #e26c8e;
+    background-color: #92bc54;
 }
 
 .title1{

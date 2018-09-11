@@ -9,60 +9,65 @@ class skills extends Component {
                 <h1 className = "title">Skills:</h1>
                 <div className = "columns">
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("html")} className = "skill html">
                             HTML
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("css")} className = "skill css">
                             CSS
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("javaScript")} className = "skill javaScript">
                             JavaScript
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("java")} className = "skill java">
                             Java
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("C++")} className = "skill Cpp">
                             C++
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div onClick = {()=>expand()} className = "skill">
+                        <div onClick = {()=>expand("mongo")} className = "skill mongo">
                             MongoDB
                         </div>
                     </div>
                 </div>
 
                 <div className = "columns">
-                    <div className = "column is-2 is-offset-1">
-                        <div className = "skill">
+                    <div className = "column is-2">
+                        <div onClick = {()=>expand("C")} className = "skill C">
+                            C
+                        </div>
+                    </div>
+                    <div className = "column is-2">
+                        <div onClick = {()=>expand("python")} className = "skill python">
                             Python
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("VueJS")} className = "skill vuejs">
                             Vue.JS
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("NodeJS")} className = "skill nodejs">
                             NodeJS
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("ReactJS")} className = "skill reactjs">
                             ReactJS
                         </div>
                     </div>
                     <div className = "column is-2">
-                        <div className = "skill">
+                        <div onClick = {()=>expand("SQL")} className = "skill sql">
                             SQL
                         </div>
                     </div>

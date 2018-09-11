@@ -1,20 +1,74 @@
 var x;
 var expando;
-var i = 0;
+var i = 0;  //increase percentage
 var y;
-export function expand(){
-    console.log("HELLO THERE");
+var color = "";     //will define color of skill
+var skillLevel;     //will define skill percentage of skill
+//WILL CALL EXPANDOF EVERY 11 UNTIL PERCENTAGE IS 100%
+export function expand(skill){
+    i = 0;              //make sure i is always zero
+    clearInterval(x);   //clear previous interval if conflicts exist
     y = document.getElementById("skillBox");
     y.style.width= '1%';
-    x =setInterval(expandoF, 11);
+    //series of if statements to check color and percentage
+    if(skill === "mongo"){
+        y.style.backgroundColor = "#1c9e3c";
+        skillLevel = "20%";
+    }
+    else if(skill === "html"){
+        y.style.backgroundColor = "#e5470d";
+        skillLevel = "90%";
+    }
+    else if(skill === "css"){
+        y.style.backgroundColor = "#1de50b";
+        skillLevel = "80%";
+    }
+    else if(skill === "javaScript"){
+        y.style.backgroundColor = "#caef0e";
+        skillLevel = "77%";
+    }
+    else if(skill === "java"){
+        y.style.backgroundColor = "#bf0716";
+        skillLevel = "80%";
+    }
+    else if(skill === "C++"){
+        y.style.backgroundColor = "#0101bc";
+        skillLevel = "89%";
+    }
+    else if(skill === "C"){
+        y.style.backgroundColor = "#7591ef";
+        skillLevel = "86%";
+    }
+    else if(skill === "NodeJS"){
+        y.style.backgroundColor = "#89ef75";
+        skillLevel = "82%";
+    }
+    else if(skill === "ReactJS"){
+        y.style.backgroundColor = "#e357e5";
+        skillLevel = "75%";
+    }
+    else if(skill === "VueJS"){
+        y.style.backgroundColor = "#acf9f2";
+        skillLevel = "66%";
+    }
+    else if(skill === "SQL"){
+        y.style.backgroundColor = "#ff0000";
+        skillLevel = "68%";
+    }
+    else if(skill === "python"){
+        y.style.backgroundColor = "#302d2d";
+        skillLevel = "40%";
+    }
+    console.log(skill);
+    x =setInterval(expandoF, 1);
 }
 
 function expandoF(){
-    expando = i + '%';
+    expando = i + '%'; //GET PERCENTAGE SO IT IS PASSED DOWN TO DOM
     console.log(expando);
     y.style.width = expando;
     y.innerHTML = expando;
-    if(y.style.width === "100%"){
+    if(y.style.width === skillLevel){
         clearInterval(x);
     }
     i++;

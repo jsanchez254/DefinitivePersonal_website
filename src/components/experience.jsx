@@ -5,6 +5,7 @@ import {Divider} from "semantic-ui-react";
 
 //IMPORT COMPONENT
 import Skills from "./skills";
+import WorkEx from "./workExperience";
 
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -36,6 +37,8 @@ class experience extends Component {
                     </div>
                     <br/>
                     <Skills/>
+                    <br/>
+                    <WorkEx/>
                </React.Fragment>
          );
     }

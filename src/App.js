@@ -15,6 +15,7 @@ import "./assets/css/navbar.css";
 import "./assets/css/footer.css";
 import "./assets/css/aboutMe.css";
 import "./assets/css/skill.css";
+import "./assets/css/workExperience.css";
 
 class App extends Component {
   render() {

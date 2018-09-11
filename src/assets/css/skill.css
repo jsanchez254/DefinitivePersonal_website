@@ -7,6 +7,43 @@
     border-radius: 15px;
     text-align: center;
 }
+
+.html{
+    background-color: #e5470d;
+}
+.css{
+    background-color:#1de50b;
+}
+.javaScript{
+    background-color:#caef0e;
+}
+.java{
+    background-color: #bf0716;
+}
+.Cpp{
+    background-color: #0101bc;
+}
+.C{
+    background-color: #7591ef;
+}
+.nodejs{
+    background-color: #89ef75;
+}
+.reactjs{
+    background-color: #e357e5;
+}
+.vuejs{
+    background-color: #acf9f2;
+}
+.sql{
+    background-color: #ff0000;
+}
+.python{
+    background-color: #302d2d;
+}
+
+
+
 .skill:hover{
     background-color:white;
     color:black;
@@ -16,14 +53,16 @@
 
 #skillBox{
     text-align: right;
-    font-size: 35px;
-    color: black;
+    font-size: 40px;
+    color: white;
     vertical-align: middle;
     background-color: pink;
     height: 100%;
     width: 0%;
     border-radius: 10px;
 }
+
+
 
 #contenedor{
     width: 100%;
