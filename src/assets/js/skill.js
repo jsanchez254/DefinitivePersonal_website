@@ -48,7 +48,7 @@ export function expand(skill){
         skillLevel = "75%";
     }
     else if(skill === "VueJS"){
-        y.style.backgroundColor = "#acf9f2";
+        y.style.backgroundColor = "#59b6ae";
         skillLevel = "66%";
     }
     else if(skill === "SQL"){

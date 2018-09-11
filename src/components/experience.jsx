@@ -39,6 +39,7 @@ class experience extends Component {
                     <Skills/>
                     <br/>
                     <WorkEx/>
+                    <br/>
                </React.Fragment>
          );
     }

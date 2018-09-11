@@ -33,7 +33,7 @@
     background-color: #e357e5;
 }
 .vuejs{
-    background-color: #acf9f2;
+    background-color: #59b6ae;
 }
 .sql{
     background-color: #ff0000;
@@ -41,7 +41,9 @@
 .python{
     background-color: #302d2d;
 }
-
+.mongo{
+    background-color: #1c9e3c;
+}
 
 
 .skill:hover{
