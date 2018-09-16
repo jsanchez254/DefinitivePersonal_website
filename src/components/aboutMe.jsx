@@ -12,7 +12,7 @@ class aboutMe extends Component {
                             About Me
                         </center>
                         <Divider/>
-                        <p>
+                        <p className = "textWrite">
                         A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the eulipotyphlan family 
                         Erinaceidae. There are seventeen species of hedgehog in five genera, found through parts of Europe,
                          Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, 

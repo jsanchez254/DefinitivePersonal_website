@@ -6,6 +6,6 @@ export function less(okay){
         x.innerHTML = "More Info";
     }
     else{
-        x.innerHTML = "Less Info";
+        x.innerHTML = "Less Info";  
     }
 }

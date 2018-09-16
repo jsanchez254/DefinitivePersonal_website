@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 
 import {expand} from "../assets/js/skill.js";
 
+import {library} from "@fortawesome/fontawesome-svg-core";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBolt} from "@fortawesome/free-solid-svg-icons";
+
+library.add(faBolt);
+
 class skills extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <h1 className = "title">Skills:</h1>
+                <h1 className = "title"><FontAwesomeIcon icon = "bolt" size = "1x" color = "black"/> Skills:</h1>
                 <div className = "columns">
                     <div className = "column is-2">
                         <div onClick = {()=>expand("html")} className = "skill html">
